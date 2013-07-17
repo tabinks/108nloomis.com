@@ -21,10 +21,11 @@
 
     body {
         padding-bottom: 40px;
-      color: #5a5a5a;
-       font-family : "Josefin Sans",Verdana, Helvetica, sans-serif;
+        color: #5a5a5a;
+        font-family : "Josefin Sans",Verdana, Helvetica, sans-serif;
         font-size:18px;
     }
+        
     .text-shadow    {   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);}
     .uppercase      {   text-transform: uppercase;}
         /* MARKETING CONTENT
@@ -32,8 +33,17 @@
 
     /* Center align the text within the three columns below the carousel */
         .info {
-            
+            margin:0px;
+            padding:40px;
+            width:100%;
         }
+        .info h2 {      font-weight: normal;}
+        
+        .header3 {
+            padding-top:20px;
+            text-transform: uppercase;
+        }
+        
         
     .marketing .span4 {
       text-align: center;
@@ -48,10 +58,6 @@
       margin-right: 10px;
     }
 
-        .header3 {
-            padding-top:20px;
-            text-transform: uppercase;
-        }
     /* Featurettes
     ------------------------- */
 
@@ -165,14 +171,27 @@
 
     <!-- NAVBAR
     ================================================== -->
-
+      <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+              <div class="container">
+                  <ul class="nav pull-left">
+                      <li><a href="/">108 n. loomis st, downtown naperville</a></li>
+                  </ul>
+                  <ul class="nav pull-right">
+                      <li><a href="mailto:tabinks@gmail.com" title="Send email for more information">contact</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      
+      <div class="empty"></div>
 
 
     <!-- HERO
      ================================================== -->
       <div class="hero" style="background-image: url(img/1.JPG);color:yellow;">
       <div class="container">
-          <h1 style="font-size:100px">108 N. LOOMIS ST.</h1>
+          <h1 style="font-size:100px;margin-top:310px;">108 N. LOOMIS ST.</h1>
           <p>DOWNTOWN NAPERVILLE</p>
       </div>
       </div>
@@ -364,10 +383,10 @@
       <!-- ///////////////////////////////////////////////////////////////////////////
        // Great room
        /////////////////////////////////////////////////////////////////////// -->
-      <div class="container marketing" style="background-color:#CEBC7C;   text-align: left;">
-          <h2 class="header3">House Information</h2>
+      <div class="container info" style="background-color:#C7B786;font-weight:normal;">
+          <h2 class="header2">LEASING INFOMATION</h2>
           <div class="row">
-              <div class="span3" style="text-align:left;">
+              <div class="span3">
                   <h2>House</h2>
                   <ul>
                       <li>Approx. 1650 sq. feet</li>
@@ -380,7 +399,7 @@
                   
               </div><!-- /.span4 -->
               
-              <div class="span3" style="text-align:left;">
+              <div class="span3">
                   <h2>Neighborhood</h2>
                   <ul>
                       <li>Naperville Historic District</li>
@@ -389,7 +408,7 @@
                   </ul>
               </div><!-- /.span4 -->
               
-              <div class="span3" style="text-align:left;">
+              <div class="span3">
                   <h2>Utility Estimates</h2>
                   <ul>
                       <li>$.00</li>
@@ -398,14 +417,14 @@
                   </ul>
               </div><!-- /.span4 -->
 
-              <div class="span3" style="text-align:left;">
-                  <h2>Lease Options</h2>
+              <div class="span3">
+                  <h2>Price</h2>
                   <ul>
                       <li>1 Year Lease at $2050/month</li>
                       <li>2 Year Lease at $2000/month</li>
+                      <li>Available for occupancy September 2013</li>
                   </ul>
               </div><!-- /.span4 -->
-              
           </div><!-- /.row -->
       </div>
 
@@ -413,20 +432,19 @@
       
     
       
-      <!-- FOOTER
+      <!-- FOOTER -->
           <div class="container">
       <footer>
+          <br/>
           <p class="pull-right"><a href="#">Back to top</a></p>
-          <p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <p>&copy; 2013 Need to do this &middot;</p>
       </footer>
               </div>
--->
-      <br/><br/>
-
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
+    <!--
+     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap-transition.js"></script>
     <script src="../assets/js/bootstrap-alert.js"></script>
     <script src="../assets/js/bootstrap-modal.js"></script>
@@ -439,7 +457,8 @@
     <script src="../assets/js/bootstrap-collapse.js"></script>
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script>
+    
+      <script>
       !function ($) {
         $(function(){
           // carousel demo
@@ -447,6 +466,6 @@
         })
       }(window.jQuery)
     </script>
-    <script src="../assets/js/holder/holder.js"></script>
+    <script src="../assets/js/holder/holder.js"></script>-->
   </body>
 </html>
