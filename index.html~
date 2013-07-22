@@ -19,12 +19,6 @@
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
   <body>
@@ -33,7 +27,8 @@
 
 <!-- NAVBAR
  ================================================== -->
-<div class="navbar navbar-fixed-top">
+
+<div class="navbar navbar-fixed-top hidden-phone">
     <div class="navbar-inner">
         <div class="container">
             <ul class="nav pull-left">
@@ -45,9 +40,7 @@
         </div>
     </div>
 </div>
-
 <div class="empty"></div>
-
 
 <!-- ///////////////////////////////////////////////////////////////////////////
      // The best of ...
@@ -297,7 +290,7 @@
             <ul>
                 <li>Yearly lease offered at $1950/month</li>
                 <li>Available for occupancy September 2013</li>
-                <li>To schedule a showing call 630.857.9223</li>
+                <li>To schedule a showing call 630.857.9223<!-- or <a href="mailto:info@10nloomis.com">email</a>--></li>
             </ul>
         </div><!-- /.span4 -->
          </div><!-- /.row -->
