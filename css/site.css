@@ -83,13 +83,19 @@ body {
     padding-right: 0px;
     padding-left: 0px;
     }
+.navbar-fixed-top {
+    margin-bottom: 0px;
+    }
+.navbar-fixed-top {
+    position: fixed;
+    }
 }
 
 
 @media (max-width: 767px) {
     .marketing .span4 + .span4 {
-    margin-top: 40px;
-
+        margin-top: 40px;
+}
 .info .span6 + .span6 {
     margin-top: 40px;
 }
